@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project path=".repo/local_manifests" name="bigsupersquid/android_roomservice" revision="cm-11.0" />
   <remove-project name="androidarmv6/android_build" />
   <project path="build" name="bigsupersquid/android_build" groups="pdk" revision="cm-11.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -36,7 +37,7 @@
 <!--  <remove-project name="" /> -->
   <project path="device/lge/msm7x27-common" name="androidarmv6/android_device_lge_msm7x27-common" />
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" />
-  <project path="device/qcom/msm7x27" name="bigsupersquid/android_device_qcom_msm7x27" revision="cm-11.0" />
+  <project path="device/qcom/msm7x27" name="androidarmv6/android_device_qcom_msm7x27" />
 
   <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="4.8-eabi" />
   <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="4.8-androideabi" />
