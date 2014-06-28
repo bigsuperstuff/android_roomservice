@@ -8,7 +8,7 @@
   
   <!--  <project path="art" name="bigsupersquid/android_art" /> -->
   <remove-project name="androidarmv6/android_bootable_recovery" />
-  <project path="bootable/recovery" name="bigsupersquid/android_bootable_recovery" revision="cm-11.0" />
+  <project path="bootable/recovery" name="bigsupersquid/android_bootable_recovery" />
   
   <!--
   <project path="device/htc/msm8660-common" name="Team-Hydra/android_device_htc_msm8660-common" />
@@ -39,4 +39,6 @@
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" />
   <project path="device/qcom/msm7x27" name="androidarmv6/android_device_qcom_msm7x27" />
 
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7-sm" name="UBERUTILS/arm-eabi-4.7" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-sm" name="UBERUTILS/arm-linux-androideabi-4.7" remote="github" revision="master" />
 </manifest>
