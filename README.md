@@ -25,6 +25,10 @@ lunch os2sd_cm_thunderc-userdebug
 
 then
 
+cd device/lge/thunderc && . version.sh <int or sd> && cd ../../..
+
+and
+
 time mka bacon
 
 (mka instead of make -j* will supposedly optimize the number of threads based on your cpu, and then time will display total time when it finishes your build.)
