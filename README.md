@@ -16,18 +16,18 @@ then repo sync.
 
 . build/envsetup.sh
 
-lunch internal_cm_thunderc-userdebug
-
-or
-
-lunch os2sd_cm_thunderc-userdebug
-
 
 then
 
-cd device/lge/thunderc && . version.sh <int or sd> && cd ../../..
+cd device/lge/thunderc && . version.sh int && cd ../../..
 
-and
+for internal build, or 
+
+cd device/lge/thunderc && . version.sh sd && cd ../../..
+
+for os2sd build,
+
+and then
 
 time mka bacon
 
