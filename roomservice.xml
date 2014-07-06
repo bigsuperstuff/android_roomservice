@@ -8,7 +8,7 @@
   
   <!--  <project path="art" name="bigsupersquid/android_art" /> -->
   <remove-project name="androidarmv6/android_bootable_recovery" />
-  <project path="bootable/recovery" name="bigsupersquid/android_bootable_recovery" />
+  <project path="bootable/recovery" name="bigsupersquid/android_bootable_recovery" revision="android-4.4" />
   
   <!--
   <project path="device/htc/msm8660-common" name="Team-Hydra/android_device_htc_msm8660-common" />
