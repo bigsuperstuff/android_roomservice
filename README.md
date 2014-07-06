@@ -36,6 +36,8 @@ then
 and then
 
 
+lunch cm_thunderc-userdebug
+
 time mka bacon
 
 
