@@ -23,13 +23,14 @@ repo sync
 then
 
 
-cd device/lge/thunderc && . version.sh int && cd ../../..
+. build/version.sh int
 
-for internal build, or 
+(for internal build, or)
 
-cd device/lge/thunderc && . version.sh sd && cd ../../..
 
-for os2sd build,
+. build/version.sh sd
+
+(for os2sd build.)
 
 
 and then
