@@ -15,7 +15,6 @@
   <project name="bigsupersquid/android_packages_apps_Settings" path="packages/apps/Settings" />
   <project name="bigsupersquid/packages-inputmethods-PCKeyboard" path="packages/inputmethods/PCKeyboard" revision="cm-11.0" />
   <remove-project name="androidarmv6/android_vendor_cm" />
-  <remove-project name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project name="bigsupersquid/android_vendor_cm" path="vendor/cm" revision="cm-11.0" />
   <project name="bigsupersquid/android_device_lge_thunderc" path="device/lge/thunderc" revision="OS2SD" />
   <project name="bigsupersquid/android_kernel_lge_msm7x27-3.0.x" path="kernel/lge/msm7x27-3.0.x" remote="github" revision="cm-11.0" />
@@ -29,4 +28,45 @@
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" />
   <project name="bigsupersquid/android_device_lge_p500" path="device/lge/p500" remote="github" />
+<!-- cruft or build-breakers -->
+  <remove-project name="androidarmv6/android_art" />
+  <remove-project name="CyanogenMod/android_device_generic_armv7-a-neon" />
+  <remove-project name="CyanogenMod/android_device_generic_mips" />
+  <remove-project name="CyanogenMod/android_device_generic_x86" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-mips" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
+  <remove-project name="CyanogenMod/android_hardware_ti_omap3" />
+  <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wlan" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wpan" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMAccount" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="CyanogenMod/android_packages_apps_Nfc" />
+  <remove-project name="platform/packages/apps/OneTimeInitializer" />
+  <remove-project name="CyanogenMod/android_packages_apps_Stk" />
+  <remove-project name="CyanogenMod/android_packages_apps_Torch" />
+  <remove-project name="CyanogenMod/android_packages_apps_UnifiedEmail" />
+  <remove-project name="CyanogenMod/android_packages_apps_VideoEditor" />
+  <remove-project name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
+  <remove-project name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
+  <remove-project name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6"/>
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
 </manifest>
