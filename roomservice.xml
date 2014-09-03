@@ -6,7 +6,7 @@
     <copyfile dest="Makefile" src="core/root.mk" />
   </project>
   <remove-project name="androidarmv6/android_bootable_recovery" />
-  <project name="bigsupersquid/android_bootable_recovery" path="bootable/recovery" revision="android-4.4" />
+  <project name="bigsupersquid/android_bootable_recovery" path="bootable/recovery" revision="multi" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <project groups="pdk" name="Team-Hydra/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
   <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
