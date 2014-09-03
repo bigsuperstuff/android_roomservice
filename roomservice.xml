@@ -36,6 +36,8 @@
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="device/generic/mini-emulator-mips" />
   <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="CyanogenMod/android_external_libnfc-nci" />
+  <remove-project name="CyanogenMod/android_external_libnfc-nxp" />
   <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <remove-project name="CyanogenMod/android_hardware_ti_omap3" />
   <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
