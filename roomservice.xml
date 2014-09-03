@@ -24,8 +24,9 @@
   <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" />
   <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" />
   <project name="bigsupersquid/prebuilt_linux-x86_toolchain_arm-v6k-eabi" path="prebuilt/linux-x86/toolchain/arm-unknown-eabi-4.7" remote="github" revision="4.7.4" />
+  <project name="bigsupersquid/prebuilt_linux-x86_toolchain_arm-v6k-eabi" path="prebuilt/linux-x86/toolchain/arm-v6k-eabi-4.8" remote="github" revision="4.8.2" />
   <project name="UBERUTILS/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-sm" remote="github" revision="master" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" />
-  <project name="androidarmv6/android_device_lge_p500" path="device/lge/p500" remote="github" />
+  <project name="bigsupersquid/android_device_lge_p500" path="device/lge/p500" remote="github" />
 </manifest>
