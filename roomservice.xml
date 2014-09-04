@@ -2,7 +2,7 @@
 <manifest>
   <project name="bigsupersquid/android_roomservice" path=".repo/local_manifests" revision="cm-11.0" />
   <remove-project name="androidarmv6/android_build" />
-  <project groups="pdk" name="bigsupersquid/android_build" path="build" revision="cm-11.0">
+  <project groups="pdk" name="androidarmv6/android_build" path="build" revision="cm-11.0">
     <copyfile dest="Makefile" src="core/root.mk" />
   </project>
   <remove-project name="androidarmv6/android_bootable_recovery" />
