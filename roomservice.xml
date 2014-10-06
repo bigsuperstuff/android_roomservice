@@ -2,20 +2,22 @@
 <manifest>
   <project name="bigsupersquid/android_roomservice" path=".repo/local_manifests" revision="cm-11.0" />
   <remove-project name="androidarmv6/android_build" />
-  <project groups="pdk" name="androidarmv6/android_build" path="build" revision="cm-11.0">
+  <project name="androidarmv6/android_build" path="build" revision="cm-11.0">
     <copyfile dest="Makefile" src="core/root.mk" />
   </project>
   <remove-project name="androidarmv6/android_bootable_recovery" />
   <project name="bigsupersquid/android_bootable_recovery" path="bootable/recovery" revision="multi" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-  <project groups="pdk" name="Team-Hydra/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+  <project name="Team-Hydra/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
   <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
   <project name="bigsupersquid/android_packages_apps_Camera2" path="packages/apps/Camera2" remote="github" revision="cm-11.0" />
-  <remove-project name="androidarmv6/android_packages_apps_Settings" />
-  <project name="bigsupersquid/android_packages_apps_Settings" path="packages/apps/Settings" />
   <project name="bigsupersquid/packages-inputmethods-PCKeyboard" path="packages/inputmethods/PCKeyboard" revision="cm-11.0" />
-  <remove-project name="androidarmv6/android_vendor_cm" />
+<!--  <remove-project name="androidarmv6/android_packages_apps_Settings" />
+  <project name="bigsupersquid/android_packages_apps_Settings" path="packages/apps/Settings" />
+-->
+<!--  <remove-project name="androidarmv6/android_vendor_cm" />
   <project name="bigsupersquid/android_vendor_cm" path="vendor/cm" revision="cm-11.0" />
+-->
   <project name="bigsupersquid/android_vendor_lge" path="vendor/lge" remote="github" revision="cm-11.0" />
   <project name="androidarmv6/android_device_lge_msm7x27-common" path="device/lge/msm7x27-common" />
   <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" />
@@ -70,4 +72,96 @@
   <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
+<!-- Diet KitKat repo
+  <remove-project name="platform/cts" />
+  <remove-project name="platform/developers/build" />
+  <remove-project name="platform/developers/demos" />
+  <remove-project name="platform/developers/docs" />
+  <remove-project name="platform/developers/samples/android" />
+  <remove-project name="platform/docs/source.android.com" />
+  <remove-project name="CyanogenMod/android_external_aac" />
+  <remove-project name="CyanogenMod/android_external_android-clat" />
+  <remove-project name="CyanogenMod/android_external_ant-glob" />
+  <remove-project name="CyanogenMod/android_external_ant-wireless_ant_native" />
+  <remove-project name="CyanogenMod/android_external_ant-wireless_ant_service" />
+  <remove-project name="CyanogenMod/android_external_ant-wireless_antradio-library" />
+  <remove-project name="CyanogenMod/android_external_apache-qp" />
+  <remove-project name="CyanogenMod/android_external_arduino" />
+  <remove-project name="CyanogenMod/android_external_bson" />
+  <remove-project name="CyanogenMod/android_external_cardslib" />
+  <remove-project name="platform/external/ceres-solver" />
+  <remove-project name="CyanogenMod/android_external_connectivity" />
+  <remove-project name="CyanogenMod/android_external_crda" />
+  <remove-project name="CyanogenMod/android_external_curl" />
+  <remove-project name="CyanogenMod/android_external_dexmaker" />
+  <remove-project name="platform/external/droiddriver" />
+  <remove-project name="CyanogenMod/android_external_ebtables" />
+  <remove-project name="CyanogenMod/android_external_eclipse-basebuilder" />
+  <remove-project name="CyanogenMod/android_external_eclipse-windowbuilder" />
+  <remove-project name="CyanogenMod/android_external_ganymed-ssh2" />
+  <remove-project name="CyanogenMod/android_external_hamcrest" />
+  <remove-project name="CyanogenMod/android_external_heimdall" />
+  <remove-project name="CyanogenMod/android_external_htop" />
+  <remove-project name="platform/external/iputils" />
+  <remove-project name="CyanogenMod/android_external_jack" />
+  <remove-project name="CyanogenMod/android_external_JakeWharton_butterknife" />
+  <remove-project name="CyanogenMod/android_external_jmdns" />
+  <remove-project name="CyanogenMod/android_external_jmonkeyengine" />
+  <remove-project name="CyanogenMod/android_external_kissfft" />
+  <remove-project name="CyanogenMod/android_external_whispersystems_TextSecure" />
+  <remove-project name="CyanogenMod/android_external_whispersystems_WhisperPush" />
+  <remove-project name="CyanogenMod/ion" />
+  <remove-project name="CyanogenMod/AndroidAsync" />
+  <remove-project name="CyanogenMod/android_external_libcap-ng" />
+  <remove-project name="CyanogenMod/android_external_libphonenumbergoogle" />
+  <remove-project name="CyanogenMod/android_external_libppp" />
+  <remove-project name="CyanogenMod/android_external_libusb" />
+  <remove-project name="CyanogenMod/android_external_libusbx" />
+  <remove-project name="CyanogenMod/android_external_libusb-compat" />
+  <remove-project name="platform/external/libssh2" />
+  <remove-project name="CyanogenMod/android_external_libvorbis" />
+  <remove-project name="CyanogenMod/android_external_linux-tools-perf" />
+  <remove-project name="CyanogenMod/android_external_littlemock" />
+  <remove-project name="platform/external/marisa-trie" />
+  <remove-project name="CyanogenMod/android_external_naver-fonts" />
+  <remove-project name="platform/external/nist-pkits" />
+  <remove-project name="platform/external/noto-fonts" />
+  <remove-project name="CyanogenMod/android_external_ntfs-3g" />
+  <remove-project name="platform/external/objenesis" />
+  <remove-project name="platform/external/open-vcdiff" />
+  <remove-project name="CyanogenMod/android_external_opencv" />
+  <remove-project name="CyanogenMod/android_external_openfst" />
+  <remove-project name="CyanogenMod/android_external_pciutils" />
+  <remove-project name="CyanogenMod/android_external_pigz" />
+  <remove-project name="platform/external/pixman" />
+  <remove-project name="CyanogenMod/android_external_powertop" />
+  <remove-project name="CyanogenMod/android_external_protobuf-c" />
+  <remove-project name="CyanogenMod/android_external_qrngd" />
+  <remove-project name="CyanogenMod/android_external_regex-re2" />
+  <remove-project name="CyanogenMod/android_external_replicaisland" />
+  <remove-project name="platform/external/robolectric" />
+  <remove-project name="platform/external/sil-fonts" />
+  <remove-project name="platform/external/smack" />
+  <remove-project name="CyanogenMod/android_external_spongycastle" />
+  <remove-project name="CyanogenMod/android_external_square_dagger" />
+  <remove-project name="CyanogenMod/android_external_square_javawriter" />
+  <remove-project name="CyanogenMod/android_external_stressapptest" />
+  <remove-project name="platform/external/timezonepicker-support" />
+  <remove-project name="CyanogenMod/android_external_zxing" />
+  <remove-project name="CyanogenMod/android_frameworks_compile_mclinker" />
+  <remove-project name="CyanogenMod/android_frameworks_mff" />
+  <remove-project name="CyanogenMod/android_frameworks_ml" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_carddav" />
+  <remove-project name="CyanogenMod/android_frameworks_testing" />
+  <remove-project name="CyanogenMod/android_frameworks_volley" />
+  <remove-project name="CyanogenMod/android_hardware_akm" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_bt" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_camera" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_keymaster" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_msm8960" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_msm8x74" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_power" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_sensors" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_wlan" />-->
+  <remove-project name="CyanogenMod/android_packages_apps_VoicePlus" />
 </manifest>
