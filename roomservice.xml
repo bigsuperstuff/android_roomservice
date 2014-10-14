@@ -12,9 +12,9 @@
   <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
   <project name="bigsupersquid/android_packages_apps_Camera2" path="packages/apps/Camera2" remote="github" revision="cm-11.0" />
   <project name="bigsupersquid/packages-inputmethods-PCKeyboard" path="packages/inputmethods/PCKeyboard" revision="cm-11.0" />
-<!--  <remove-project name="androidarmv6/android_packages_apps_Settings" />
+  <remove-project name="androidarmv6/android_packages_apps_Settings" />
   <project name="bigsupersquid/android_packages_apps_Settings" path="packages/apps/Settings" />
--->
+
 <!--  <remove-project name="androidarmv6/android_vendor_cm" />
   <project name="bigsupersquid/android_vendor_cm" path="vendor/cm" revision="cm-11.0" />
 -->
@@ -53,6 +53,7 @@
   <remove-project name="CyanogenMod/android_packages_apps_Stk" />
   <remove-project name="CyanogenMod/android_packages_apps_Torch" />
   <remove-project name="CyanogenMod/android_packages_apps_VideoEditor" />
+  <remove-project name="CyanogenMod/android_packages_apps_VoicePlus" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
   <remove-project name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
@@ -163,5 +164,4 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_power" />
   <remove-project name="CyanogenMod/android_hardware_qcom_sensors" />
   <remove-project name="CyanogenMod/android_hardware_qcom_wlan" />-->
-  <remove-project name="CyanogenMod/android_packages_apps_VoicePlus" />
 </manifest>
