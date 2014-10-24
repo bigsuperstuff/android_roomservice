@@ -1,4 +1,5 @@
-roomservice.xml for experimental cm-11 for thunderc
+roomservice.xml for experimental cm-11 for thunderc ("stable" repo)
+(https://github.com/bigsupersquid/android_roomservice.git is definitely unstable)
 
 to build:
 
@@ -9,7 +10,7 @@ directions here: https://github.com/androidarmv6/android
 cd to your androidarmv6 directory, then
 
 
-git clone https://github.com/bigsupersquid/android_roomservice.git .repo/local_manifests/ -b cm-11.0
+git clone https://github.com/bigsuperstuff/android_roomservice.git .repo/local_manifests/ -b cm-11.0
 
 
 then
@@ -22,6 +23,7 @@ repo sync
 
 then
 
+//needs fixed: currently going to build for whatever version I'm building
 
 . build/version.sh int
 
@@ -32,6 +34,7 @@ then
 
 (for os2sd build.)
 
+//end needs fixed
 
 and then
 
